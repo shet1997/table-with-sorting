@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9 !important;
+}
+
+.table thead tr {
+  background-color: #eef8ff !important;
+}
+
+.table thead tr th {
+  font-weight: 300 !important;
+  font-size: 12px;
+}
+
+.university_region {
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+
+.scr_bcg {
+  background-color: #e8f0fe;
+  width: fit-content;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+a { cursor: pointer; }
